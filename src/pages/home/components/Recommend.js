@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
+import {
+    RecommendWrapper,
+    RecommendItem,
+} from '../style'
+
+
+
+
 
 class Recommend extends Component {
     render() {
         return (
-            <div>
-                Recommend
-            </div>
+            <RecommendWrapper>
+                <RecommendItem imgUrl="http:////cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"></RecommendItem>
+                <RecommendItem imgUrl="http:////cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"></RecommendItem>
+                <RecommendItem imgUrl="http:////cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"></RecommendItem>
+                <RecommendItem imgUrl="http:////cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"></RecommendItem>
+                <RecommendItem imgUrl="http:////cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"></RecommendItem>
+            </RecommendWrapper>
         );
     }
 }
